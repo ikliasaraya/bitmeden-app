@@ -1,0 +1,14 @@
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+.vscode/
+!.vscode/settings.json
+*.db
