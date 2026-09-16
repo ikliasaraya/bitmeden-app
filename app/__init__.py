@@ -19,9 +19,11 @@ def create_app():
     from app.routes.auth import auth_bp
     from app.routes.dashboard import dashboard_bp
     from app.routes.products import products_bp
+    from app.routes.listings import listings_bp
     app.register_blueprint(auth_bp)
     app.register_blueprint(dashboard_bp)
     app.register_blueprint(products_bp)
+    app.register_blueprint(listings_bp)
     from app import models
     return app
 
